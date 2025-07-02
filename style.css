@@ -1,0 +1,23 @@
+h2, h1{
+    color: pink;
+    text-align: center; 
+    border: 5px dashed purple;
+    cursor: pointer;
+    
+}
+
+
+p{
+    color: solid rgb(195 126 212);
+    border: 5px dashed rgb(200 150 230);
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.ahhh{
+    border: 10px dashed rgb(200 80 90);
+    color: red;
+}
