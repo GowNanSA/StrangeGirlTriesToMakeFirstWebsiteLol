@@ -10,8 +10,19 @@ h2, h1{
 p{
     color: solid rgb(195 126 212);
     border: 5px dashed rgb(200 150 230);
+    line-height:20px;
+
+    font-weight: bold; 
+    font-style:italic; 
+    font-size:95%; 
+    font-family:'Comic Sans MS'; 
 }
 
+img {
+    float: left; 
+    width:  450px;
+    height: 300px; 
+}
 li{
     list-style: none;
     display: inline-block;
@@ -20,4 +31,10 @@ li{
 .ahhh{
     border: 10px dashed rgb(200 80 90);
     color: red;
+}
+
+.aAAAAAAcontainer{
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content: center; 
 }
